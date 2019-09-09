@@ -1,0 +1,181 @@
+
+        @font-face {
+            font-family: "icon";
+            src: url('../images/font_tjf332q6a7h/iconfont.eot');
+            src: url('../images/font_tjf332q6a7h/iconfont.eot?#iefix') format('embedded-opentype'),
+                url('../images/font_tjf332q6a7h/iconfont.svg#icomoon') format('svg'),
+                url('../images/font_tjf332q6a7h/iconfont.woff') format('woff'),
+                url('../images/font_tjf332q6a7h/iconfont.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .iconfont {
+            font-family: "icon";
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: #2e363f;
+        }
+
+        .loginbox {
+            margin: auto;
+            margin-top: 10%;
+            width: 450px;
+            text-align: left;
+        }
+
+        .control_system_title {
+            width: 100%;
+            height: 110px;
+            padding: 10px 10px;
+            box-sizing: border-box;
+            text-align: center;
+            font-size: 14px;
+            line-height: 30px;
+            border-bottom: 1px solid #cccccc;
+        }
+
+        .control_system_title h2 {
+            color: #b2deff;
+            font-size: 28px;
+            line-height: 40px;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        .control_system_title span {
+            font-size: 14px;
+            color: gray;
+        }
+
+        .login_form {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .login_form .username {
+            margin: 10px 0;
+            width: 100%;
+
+        }
+
+        .login_form .p1 {
+            color: #b2deff;
+            padding-left: 4px;
+            margin-bottom: 5px;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 20px;
+        }
+
+
+        .username_font {
+            background: #28b779;
+            width: 30px;
+            height: 20px;
+            padding: 9px;
+            display: block;
+            line-height: 20px;
+            text-align: center;
+            float: left;
+
+        }
+
+        .icon_user {
+            width: 100%;
+            height: 100%;
+        }
+
+        .icon_user::before {
+            font-size: 16px;
+            content: "\e688";
+            color: #ffffff;
+        }
+
+        .login_form input {
+            height: 30px;
+            width: 85%;
+            padding: 3px 6px;
+            display: block;
+            float: left;
+        }
+
+        .login {
+            text-align: center;
+            line-height: 34px;
+            overflow: hidden;
+        }
+
+        .icon_password::before {
+            font-size: 16px;
+            content: "\e68d";
+            color: #ffffff;
+        }
+
+        .password_font {
+            background: orange;
+            width: 30px;
+            height: 20px;
+            padding: 9px;
+            display: block;
+            line-height: 20px;
+            text-align: center;
+            float: left;
+        }
+
+        .password {
+            margin-bottom: 20px;
+        }
+
+        .form_action {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+        }
+
+        .forget_password {
+            width: 96px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            color: #ffffff;
+            background-color: #0766af;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .forget_password:hover {
+            opacity: 0.8;
+        }
+
+        .denglu {
+            width: 335px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            font-size: 14px;
+            color: #ffffff;
+            background-color: #58bc58;
+            cursor: pointer;
+        }
+
+        .denglu:hover {
+            opacity: 0.8;
+        }
+
+        .login_form_text {
+            width: 100%;
+            height: 50px;
+            text-align: center;
+            font-size: 14px;
+            color: gray;
+            line-height: 50px;
+            border-top: 1px solid #cccccc;
+        }

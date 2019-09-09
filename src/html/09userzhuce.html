@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人注册</title>
+    <link rel="stylesheet" href="../css/09userzhuce.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo-con w clearfix">
+            <a href="https://www.jd.com/" class="logo "></a>
+            <div class="logo-title">欢迎注册</div>
+            <div class="have-account">已有账号？
+                <a href="###">请登录</a>
+            </div>
+        </div>
+    </div>
+    <div class="container w">
+        <div class="main">
+            <div class="reg-form">
+                <form action="" id="register-form" method="POST">
+                    <div id="step2-wrap">
+                        <div class="form-item form-item-account" id="form-item-account">
+                            <label>用　户　名</label>
+                            <input type="text" id="form-account" placeholder="您的账户名和登录名" class="field" maxlength="20"
+                                autocomplete="off">
+                            <i class="i-cancel"></i>
+                        </div>
+                        <div class="input-tip">
+                            <span class="error">
+                                <i class="i-error"></i>
+                                <span class="form-account-error">长度只能在4-20个字符之间</span>
+                            </span>
+                        </div>
+                        <div class="form-item form-item-account" id="form-item-account">
+                            <label>设 置 密 码</label>
+                            <input type="text" id="form-pwd" placeholder="建议使用两种以上字符组合" class="field" maxlength="20"
+                                autocomplete="off">
+                            <i class="i-cancel"></i>
+                        </div>
+                        <div class="input-tip">
+                            <span class="error">
+                                <i class="i-error"></i>
+                                <span class="form-account-error">长度只能在4-20个字符之间</span>
+                            </span>
+                        </div>
+                        <div class="form-item form-item-account" id="form-item-account">
+                            <label>确 认 密 码</label>
+                            <input type="text" id="form-equalTopwd" placeholder="请再次输入密码" class="field" maxlength="20"
+                                autocomplete="off">
+                            <i class="i-cancel"></i>
+                        </div>
+                        <div class="input-tip">
+                            <span class="error">
+                                <i class="i-error"></i>
+                                <span class="form-account-error">长度只能在4-20个字符之间</span>
+                            </span>
+                        </div>
+                        <div>
+                            <a style="display: block" class="btn-register" id="form-register">立即注册</a>
+                        </div>
+                        <div class="input-tip">
+                            <span class="error">
+                                <span class="form-account-error">长度只能在6-20个字符之间</span>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        Copyright © 2019-2020 红心KM-hx.com 版权所有
+    </div>
+</body>
+<script src="../lib/jquery-1.10.1.min.js"></script>
+<script src="../lib/commom.js"></script>
+<script src="../js/09userzhuce.js"></script>
+
+</html>

@@ -1,0 +1,214 @@
+#head_wrapper .cj_focus {
+    position: relative;
+    min-width: 1210px;
+    height: 525px;
+    transition: all .2s;
+    background-color: black;
+}
+
+#head_wrapper .cj_focus .slide {
+    width: 1210px;
+    height: 369px;
+    background-color: blue;
+    margin: 0 auto;
+    position: relative;
+    transition: all .2s;
+}
+
+#head_wrapper .cj_focus .slide .ulwp {
+    position: relative;
+    height: 369px;
+}
+
+#head_wrapper .cj_focus .slide .ulwp .left-btn {
+    width: 40px;
+    position: absolute;
+    left: 244px;
+    top: 50%;
+    z-index: 12;
+    height: 80px;
+    margin-top: -40px;
+    background: url(../images/head_main/slideV2.png) 0 -144px no-repeat;
+    display: none;
+}
+
+#head_wrapper .cj_focus .slide .ulwp .right-btn {
+    background: url(../images/head_main/slideV2.png) -53px -144px no-repeat;
+    height: 80px;
+    right: 241px;
+    margin-top: -40px;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    z-index: 12;
+    display: none;
+}
+
+#head_wrapper .cj_focus .slide .ulwp .items li {
+    display: none;
+    width: 726px;
+    height: 369px;
+    position: absolute;
+    left: 242px;
+    top: 0;
+}
+
+#head_wrapper .cj_focus .slide .ulwp .items li img {
+    width: 726px;
+    height: 369px;
+}
+
+#head_wrapper .cj_focus .slide .ulwp .tips {
+    width: 726px;
+    left: 50%;
+    margin-left: -363px;
+    position: absolute;
+    bottom: 19px;
+    z-index: 3;
+    margin: 0;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+#head_wrapper .cj_focus .slide .ulwp .tips a {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 8px;
+    cursor: pointer;
+    background: url(../images/head_main/slideV2.png) -20px 0 no-repeat;
+}
+
+#head_wrapper .cj_focus .slide .ulwp .tips .active {
+    background-position: 0 0;
+}
+
+#head_wrapper .w {
+    margin: 0 auto;
+    position: relative;
+    width: 1210px;
+}
+
+#head_wrapper .w .salelist {
+    width: 726px;
+    margin-left: 242px;
+}
+
+#head_wrapper .w .salelist ul {
+    width: 105%;
+}
+
+#head_wrapper .w .salelist ul li {
+    float: left;
+    background: #fff;
+
+}
+
+#head_wrapper .w .salelist ul li a {
+    display: block;
+    height: 156px;
+    border-right: 1px solid #ebe2eb;
+
+}
+
+#head_wrapper .w .salelist ul li a img {
+    width: 181px;
+    height: 166px;
+}
+
+#head_wrapper .w .slideright {
+    position: absolute;
+    width: 242px;
+    height: 525px;
+    top: -369px;
+    right: 0;
+    border-bottom: 1px solid #f7f5f7;
+}
+
+#head_wrapper .w .slideright .service {
+    width: 242px;
+    height: 312px;
+    overflow: hidden;
+}
+
+#head_wrapper .w .slideright .service ul {
+    margin-left: 0;
+    width: 750px;
+
+}
+
+#head_wrapper .w .slideright .service ul li {
+    float: left;
+    width: 242px;
+    height: 312px;
+    background: #fff;
+
+}
+
+#head_wrapper .w .slideright .service ul li a {
+    display: block;
+    width: 242px;
+    height: 312px;
+}
+
+#head_wrapper .w .slideright .service ul li a span {
+    text-align: center;
+}
+
+#head_wrapper .w .slideright .service ul li a .tit {
+    display: block;
+    font-size: 18px;
+    color: #312b30;
+    margin: 20px 0 6px;
+}
+
+#head_wrapper .w .slideright .service ul li a .f-tit {
+    display: block;
+    color: #9a949b;
+}
+
+#head_wrapper .w .slideright .service ul li a img {
+    display: block;
+    width: 159px;
+    height: 159px;
+    margin: 52px auto 0;
+}
+
+#head_wrapper .w .slideright .service .control {
+    position: absolute;
+    width: 70px;
+    top: 90px;
+    left: 50%;
+    margin-left: -30px;
+    text-align: center;
+    cursor: default;
+
+}
+
+#head_wrapper .w .slideright .service .control a {
+    display: inline-block;
+    background: url(../images/head_main/slideV2.png) -20px -24px no-repeat;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+#head_wrapper .w .slideright .service .control .curr {
+    background-position: 0 -24px;
+}
+
+#head_wrapper .w .slideright .baitiao {
+    position: absolute;
+    width: 242px;
+    height: 194px;
+    background: #fff;
+    padding-top: 20px;
+}
+
+#head_wrapper .w .slideright .baitiao img {
+    display: block;
+    width: 242px;
+    height: 194px;
+    opacity: 1;
+}

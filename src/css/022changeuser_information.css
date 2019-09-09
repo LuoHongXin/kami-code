@@ -1,0 +1,58 @@
+#op {
+    margin-top: 20px;
+}
+
+thead,
+table {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 3px 5px;
+}
+
+a {
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+    list-style: none;
+}
+
+a:active {
+    color: red;
+}
+
+.tractive {
+    background: rgba(255, 255, 0, 0.5);
+}
+
+.del {
+    color: #58bc58;
+}
+
+.btn {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.btn a {
+    height: 20px;
+    line-height: 20px;
+    float: right;
+}
+
+.btn span {
+    float: left;
+    margin-left: 5px;
+    color: #58bc58;
+    cursor: pointer;
+}
+
+.btn span:active {
+    color: red;
+}

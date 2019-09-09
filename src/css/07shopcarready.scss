@@ -1,0 +1,97 @@
+#succeed {
+    width: 830px;
+    margin: 70px auto 85px;
+    font-family: 'Microsoft YaHei';
+}
+#succeed .success-top {
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 24px;
+}
+
+#succeed .success-top .succ-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    background: url(../images/shopcar/cart-go.png) 0 -60px no-repeat;
+}
+#succeed .success-top h3 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #ff3e68;
+}
+#succeed .success-cont .p-item {
+    float: left;
+    margin-right: 60px;
+}
+.p-img img{
+    width: 60px;
+    height: 60px;
+}
+#succeed .success-cont .p-name {
+    width: 100%;
+    line-height: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #747474;
+}
+#succeed .success-cont .p-info {
+    float: left;
+    width: 350px;
+    margin: 15px 0 0;
+}
+#succeed .success-cont .p-img {
+    float: left;
+    width: 80px;
+    margin-right: 10px;
+    border: 1px solid #e8e8e8;
+}
+.p-extra .sp1{
+    float: left;
+    margin-right: 5px;
+    max-width: 135px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#succeed .success-cont .success-btns {
+    float: right;
+    font-size: 0;
+}
+#succeed .success-cont .btn-tobback {
+    height: 48px;
+    line-height: 48px;
+    padding: 0 40px;
+    border: 1px solid #000;
+    color: #000;
+}
+#succeed .success-cont .btn-addtocart, #succeed .success-cont .btn-tobback {
+    display: inline-block;
+    font-size: 18px;
+    vertical-align: middle;
+}
+#succeed .success-cont .btn-addtocart {
+    background: #ff3e68;
+    position: relative;
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+}
+#succeed .success-cont .btn-addtocart b {
+    background: url(../images/shopcar/cart-go.png) 0 0 no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+}

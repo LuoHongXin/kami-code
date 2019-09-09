@@ -1,0 +1,455 @@
+#category .dd{
+    display:none;
+}
+#category:hover .dd{
+    display: block;
+}
+*{
+    font-size: 12px;
+}
+.cnt-wrapper .recommend {
+    width: 180px;
+    padding: 0 20px;
+    border: 1px solid #f5f5f5;
+    float: left;
+    font-family: "microsoft yahei";
+}
+.cnt-wrapper .recommend .title {
+    height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    border-bottom: 1px solid #f5f5f5;
+}
+.cnt-wrapper .recommend .r-list .item {
+    display: inline-block;
+    margin: 20px 0;
+}
+.cnt-wrapper .recommend .r-list .item img {
+    width: 180px;
+    height: 180px;
+    margin-top: 6px;
+}
+.cnt-wrapper .recommend .r-list .item .price {
+    font-size: 0;
+    cursor: default;
+    margin-top: 7px;
+}
+.cnt-wrapper .recommend .r-list .item .name {
+    color: #000;
+    display: block;
+    width: 180px;
+    max-height: 36px;
+    overflow: hidden;
+    margin-top: 2px;
+}
+.cnt-wrapper .recommend .r-list .item .price em {
+    display: inline-block;
+    font-size: 12px;
+    color: #939393;
+    vertical-align: middle;
+}
+.cnt-wrapper .recommend .r-list .item .price span {
+    display: inline-block;
+    font-size: 16px;
+    color: #d91f20;
+    vertical-align: middle;
+    font-family: Arial;
+    margin-top: 1px;
+}
+.g-main1 {
+    width: 962px;
+    float: right;
+}
+.filter {
+    position: relative;
+    z-index: 4;
+    _zoom: 1;
+    font-family: "microsoft yahei";
+}
+.filter .f-line.top {
+    height: 30px;
+    background: #f5f5f5;
+}
+.filter .f-line {
+    padding: 10px 20px;
+    background: #f5f5f5;
+    zoom: 1;
+}
+.filter .f-sort {
+    float: left;
+    margin-right: 24px;
+}
+.clr{
+    display: block;
+    overflow: hidden;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+}
+.w {
+    width: 1210px;
+    margin: 0 auto;
+}
+.cnt-wrapper{
+    margin-top: 30px;
+}
+.filter .f-sort a {
+    float: left;
+    padding: 0 10px;
+    height: 28px;
+    background: #fff;
+    border: 1px solid #d6d6d6;
+    line-height: 28px;
+    margin-right: -1px;
+    color: #333;
+    position: relative;
+}
+.filter .f-sort a i {
+    display: none;
+    position: absolute;
+    top: 9px;
+    right: 8px;
+    width: 8px;
+    height: 9px;
+    overflow: hidden;
+    font-size: 0;
+    z-index: 1;
+}
+.filter .f-sort .f-cut {
+    display: inline-block;
+    color: #e8e8e8;
+    width: 7px;
+    height: 9px;
+    margin: 10px 0 0 8px;
+    background: url(../images/liebiaoye/arrow.png) no-repeat center;
+}
+.filter .f-sort a.up i {
+    background: url(../images/liebiaoye/price-icon-up.png) no-repeat center;
+}
+.filter .f-sort .f-cut-price {
+    display: inline-block;
+    width: 8px;
+    height: 9px;
+    margin: 8px 0 0 8px;
+}
+.filter .f-sort a.down i {
+    background: url(../images/liebiaoye/price-icon-down.png) no-repeat center;
+}
+.filter .f-sort a.down i, .filter .f-sort a.up i {
+    display: block;
+}
+.filter .f-sort a.down, .filter .f-sort a.up {
+    position: relative;
+    background: #863177;
+    color: #fff;
+}
+.price-chose {
+    width: 164px;
+    float: left;
+    position: relative;
+}
+.input-txt {
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #d4d4d4;
+    padding: 3px;
+    width: 64px;
+}
+.price-edit {
+    display: none;
+    position: absolute;
+    left: -7px;
+    top: -8px;
+    width: 168px;
+    height: 72px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #979797;
+    z-index: 1;
+}
+.price-edit a.price-cancle-btn {
+    position: absolute;
+    left: 15px;
+    top: 46px;
+    font-size: 12px;
+    color: #015aa0;
+}
+.price-edit a.btn-default {
+    position: absolute;
+    right: 6px;
+    top: 41px;
+}
+.btn-default {
+    display: inline-block;
+    line-height: 14px;
+    height: 14px;
+    border-radius: 2px;
+    background: #f7f7f7;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    padding: 4px 13px 5px;
+    color: #000;
+    background-color: #fff;
+}
+.price-chose-focus .price-edit {
+    display: block;
+}
+.price-chose-focus .sl-price {
+    z-index: 5;
+    position: relative;
+}
+.filter .btm {
+    margin-top: 1px;
+}
+.filter .f-search {
+    float: right;
+}
+.filter .f-search .input-txt {
+    width: 128px;
+    height: 22px;
+    line-height: 22px;
+    color: #999;
+}
+.filter .f-search .btn, .filter .f-search .input-txt {
+    float: left;
+}
+.filter .f-search .btn {
+    width: 48px;
+    height: 28px;
+    line-height: 28px;
+    color: #333;
+    border: 1px solid #d2d2d2;
+    background: #f7f7f7;
+    border-radius: 0;
+    margin-left: -1px;
+    padding: 0;
+}
+.goods-list {
+    margin-bottom: 20px;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+.goods-list .gl-warp {
+    margin: 1px 0 0 1px;
+    width: 962px;
+}
+.item-style-v3 .gl-item {
+    height: 422px;
+}
+.goods-list .gl-item {
+    float: left;
+    border: 1px solid #e8e8e8;
+    width: 239px;
+    overflow: hidden;
+    position: relative;
+    margin: -1px 0 0 -1px;
+    z-index: 1;
+}
+.goods-list .gl-item .p-img {
+    width: 200px;
+    height: 200px;
+    margin: 10px auto 0;
+    position: relative;
+}
+.m, .mb, .mc, .mt, .p-detail, .p-img, .p-market, .p-name, .p-price, .sm, .smb, .smc, .smt {
+    overflow: hidden;
+}
+.goods-list .gl-item .p-img img {
+    width: 200px;
+    height: 200px;
+}
+.goods-list .gl-item .p-scroll {
+    position: relative;
+    z-index: 2;
+    margin: 15px 0 12px;
+    padding-left: 24px;
+}
+.goods-list .gl-item .p-scroll .ps-wrap {
+    height: 30px;
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+}
+.goods-list .gl-item .p-scroll .ps-wrap ul {
+    position: absolute;
+    left: 0;
+}
+.goods-list .gl-item .p-scroll ul li {
+    float: left;
+    width: 32px;
+    text-align: left;
+    margin-bottom: 2px;
+}
+.goods-list .gl-item .p-scroll ul li a.curr {
+    padding: 0;
+    border-width: 2px;
+    border-color: #863177;
+}
+.goods-list .gl-item .p-scroll ul li a img {
+    width: 26px;
+    height: 26px;
+}
+.goods-list .gl-item .p-scroll ul li a {
+    cursor: default;
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 1px;
+}
+.goods-list .gl-item .price-icons {
+    margin-top: 12px;
+    height: 24px;
+    overflow: hidden;
+    font-family: "microsoft yahei";
+}
+.goods-list .gl-item .price {
+    width: 209px;
+    margin: 0 0 0 15px;
+    line-height: 1;
+    color: #d91f20;
+    cursor: default;
+    float: left;
+}
+.goods-list .gl-item .price span {
+    float: left;
+    font-size: 20px;
+    font-family: Verdana,serif;
+    letter-spacing: -1px;
+}
+.goods-list .gl-item .price span b {
+    font-size: 21px;
+    font-weight: 400;
+}
+.goods-list .gl-item .p-name {
+    margin: 9px 15px 6px 15px;
+}
+.goods-list .gl-item .p-name em {
+    display: block;
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+    color: #000;
+    font-family: "microsoft yahei";
+    cursor: pointer;
+}
+.goods-list .gl-item .p-name a i.name-icon-glo {
+    display: inline-block;
+    width: 60px;
+    height: 16px;
+    background: #ff3e68;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 16px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+.goods-list .gl-item .p-buy {
+    height: 20px;
+    line-height: 20px;
+    font-family: "microsoft yahei";
+}
+.goods-list .gl-item .p-buy .assess {
+    float: left;
+    text-align: center;
+    font-size: 0;
+    margin-left: 15px;
+}
+.goods-list .gl-item .p-buy .assess a {
+    color: #000;
+}
+.goods-list .gl-item .p-buy .assess span {
+    margin-left: 0;
+}
+.goods-list .gl-item .p-buy .assess em, .goods-list .gl-item .p-buy .assess span {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+    color: #a7a7a7;
+}
+.goods-list .gl-item .p-buy .assess span b.comment_num {
+    color: #7d256e;
+}
+.goods-list .gl-item .p-shop-name {
+    margin-left: 15px;
+    margin-top: 4px;
+    font-size: 12px;
+    color: #999;
+    line-height: 16px;
+    overflow: hidden;
+    width: 100%;
+}
+.goods-list .gl-item .p-shop-name p a {
+    display: block;
+    float: left;
+    max-width: 175px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #999;
+}
+.goods-list .gl-item .p-shop-name p .p-shop-name-icon.shop-icon-new {
+    background: url(../images/liebiaoye/shop-icon-new.png) no-repeat center;
+}
+.goods-list .gl-item .p-shop-name p .p-shop-name-icon {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.page .p-wrap {
+    float: right;
+}
+.page .p-num .pn-next.disabled em, .page .p-num .pn-next.disabled i, .page .p-num .pn-prev.disabled em, .page .p-num .pn-prev.disabled i {
+    color: #ccc;
+}
+.page .p-num a.curr {
+    border: 0 none;
+    padding: 1px 9px;
+    cursor: default;
+    background-color: #000;
+    color: #fff;
+}
+.page .p-num a, .page .p-num b {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 9px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.page .p-num {
+    float: left;
+}
+.page .p-num .pn-break {
+    color: #ccc;
+    font-weight: 700;
+}
+#ipages{
+    float: left;
+}
+.filter .f-sort a.curr {
+    color: #863177;
+    border-color: #863177;
+    z-index: 1;
+}
+#plist li.hover {
+    border-color: #863177;
+    z-index: 2;
+}

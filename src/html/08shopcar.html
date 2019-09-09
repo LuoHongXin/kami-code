@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的购物车-卡米全球购</title>
+    <link rel="stylesheet" href="../css/03maincontent.min.css">
+</head>
+
+<body>
+    <div id="shopcar_head"></div>
+    <div class="cart-warp">
+        <div class="w">
+            <div id="jd-cart">
+                <div class="cart-main cart-main-new">
+                    <div class="cart-thead">
+                        <div class="column t-checkbox">
+                            <div class="cart-checkbox">
+                                <input type="checkbox" class="jdcheckbox allall">
+                            </div>
+                            全选
+                        </div>
+                        <div class="column t-goods">商品</div>
+                        <div class="column t-props"></div>
+                        <div class="column t-price">单价(元)</div>
+                        <div class="column t-quantity">数量</div>
+                        <div class="column t-sum">小计(元)</div>
+                        <div class="column t-action">操作</div>
+                    </div>
+                    <div id="cart-list">
+                        <!-- 一个店铺 -->
+                        <!-- <div class="cart-item-list">
+                            <div class="cart-tbody">
+                                <div class="shop">
+                                    <div class="cart-checkbox">
+                                        <input type="checkbox" class="jdcheckbox allshop">
+                                    </div>
+                                    <div class="shop-txt">
+                                        <a href="###" class="shop-name">店铺名</a>
+                                    </div>
+                                </div>
+                                <div class="item-list"> -->
+                        <!-- 一个商品 -->
+                        <!-- <div class="item-item ">
+                                        <div class="item-form">
+                                            <div class="cell p-checkbox">
+                                                <div class="cart-checkbox">
+                                                    <input type="checkbox" class="jdcheckbox singleshop">
+                                                </div>
+                                            </div>
+                                            <div class="cell p-goods">
+                                                <div class="goods-item">
+                                                    <div class="p-img">
+                                                        <img src="../images/gphoto/gtu1.jpg">
+                                                    </div>
+                                                    <div class="item-msg">
+                                                        <div class="p-name">
+                                                            <em class="jdint-icon"></em>
+                                                            Swisse 钙加维生素D片 柠檬酸钙片 150片/瓶 强健骨骼 中老年成人孕妇补钙 澳洲进口
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cell p-props p-props-new">
+                                            </div>
+                                            <div class="cell p-price"><strong>单价<span>999</span> </strong></div>
+                                            <div class="cell p-quantity">
+                                                <div class="quantity-form">
+                                                    <a href="###" class="decrement ">-</a>
+                                                    <input type="text" class="itxt" value="1"
+                                                        onkeyup="(function(){this.value=this.value.replace(/[^0-9-]+/,'');}).call(this)">
+                                                    <a href="###" class="increment">+</a>
+                                                </div>
+                                            </div>
+                                            <div class="cell p-sum">
+                                                <strong>999</strong>
+                                            </div>
+                                            <div class="cell p-ops"><a href="###">删除</a></div>
+                                        </div>
+                                    </div> -->
+                        <!-- 一个商品 -->
+                        <!-- </div>
+                            </div>
+                        </div> -->
+                        <!-- 一个店铺 -->
+                    </div>
+                </div>
+            </div>
+            <div id="cart-floatbar">
+                <div class="cart-toolbar">
+                    <div class="toolbar-wrap">
+                        <div class="options-box">
+                            <div class="select-all">
+                                <div class="cart-checkbox">
+                                    <input type="checkbox" class="jdcheckbox allall">
+                                </div>
+                                全选
+                            </div>
+                            <div class="operation">
+                                <a href="###" class="remove-batch">删除选中的商品</a>
+                            </div>
+                            <div class="clr"></div>
+                            <div class="toolbar-right toolbar-right-new">
+                                <div class="normal">
+                                    <div class="comm-right">
+                                        <div class="btn-area">
+                                            <a href="###" class="submit-btn">
+                                                去结算</a>
+                                        </div>
+                                        <div class="price-sum pos-rel">
+                                            <div>
+                                                <div class="txt">总价（不含运费）：</div>
+                                                <span class="price sumPrice">
+                                                    <em>￥</em> <em></em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="amount-sum">
+                                            已选择
+                                            <em></em>
+                                            件商品
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-empty">
+                <div class="message">
+                    <ul>
+                        <li class="txt">
+                            购物车内暂时没有商品，登录后将显示您之前加入的商品
+                        </li>
+                        <li><a href="###" class="btn-1 login-btn mr10">登录</a>
+                            <a href="###" class="ftx-05">去购物</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="tishi">
+        <div class="title"><span>你尚未登录</span><a href="###" class="no">X</a></div>
+        <div class="tsbody"><img src="../images/shopcar/hxewm.png"></div>
+        <a href="###" class="qdl">你还没登录，去登陆</a>
+    </div>
+    <div id="w-footer">
+    </div>
+</body>
+<script src="../lib/jquery-1.10.1.min.js"></script>
+<script src="../lib/commom.js"></script>
+<script src="../js/08shopcar.js"></script>
+
+</html>
